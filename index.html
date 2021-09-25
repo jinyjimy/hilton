@@ -20,10 +20,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;400&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <title>Ananti Hilton Busan</title>
+    <!--bx슬라이더 css파일 추가-->
+<link rel="stylesheet" href="css/jquery.bxslider.css">
+
 </head>
 
 <body>
+
+        <!--제이쿼리 라이브러리 JS파일 링크-->
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <!--제이쿼리 라이브러리를 이용하여 만든 bx슬라이더 JS파일 링크-->
+        <script src="js/jquery.bxslider.js"></script>
+
+
     <section id="main"><img src="images/main.jpg" alt="메인이미지" width="100%">
         <div class="main-text">
             <div class="inner">
@@ -82,7 +91,7 @@
                 <div class="space"></div>
             </div>
             <div class="content2-box">
-                <div class="content2-img"><img src="images/photo1.jpg"></div>
+                <div class="content2-img"><img src="images/photo3.jpg"></div>
                 <div class="content2-text">
                     <h2>다모임</h2>
                     <p>다모임은 라이브 쿠킹 스테이션을 갖춘 오픈 키친 컨셉의 뷔페 레스토랑입니다. <br>
@@ -96,17 +105,107 @@
             </div>
 
     </section>
+
+    <script>
+        $(function() {
+            /*.slide_gallery라는 클래스를 가진 영역에서 bxSlider(이미지 슬라이드) 함수를 호출하겠다*/
+            $('.slide_gallery').bxSlider({
+                auto: true,
+                autoControls: false,
+                pager: true,
+                speed: 500,
+                pause: 4000,
+                mode: 'horizontal'
+            });
+        });
+        </script>
     <section id="content-3">
         <div class="inner">
             <h1>LEISURE & WELLNESS</h1>
-            <div class="slide"><img src=""></div>
-            <h2>맥퀸즈 풀</h2>
-            <p></p>
+            <ul class="slide_gallery">
+                <li><img src="images/leiisure1.jpg" alt="슬라이드1이미지"><h2>맥퀸즈 풀</h2>
+                    <p>아난티 힐튼 부산 호텔 10층에 위치한 맥퀸즈 풀은 실내에 전면 통유리 창으로 되어<br>
+                        시간에 따라 색다른 분위기를 연출하며<br>
+                        사계절 내내 쾌적한 환경에서 수영을 즐길 수 있는 레저 시설입니다. <br>
+                        길이 24m, 깊이 1m 의 실내 수영장에서 바다를 한 눈에 내려다 볼 수 있으며 <br>
+                        야외 테라스에 자리 잡은 자쿠지와 월풀, 건식 사우나는 <br>
+                        기존의 어느 호텔에서도 경험할 수 없었던 최고의 시설입니다.</p></li>
+                <li><img src="images/leisure2.jpg" alt="슬라이드2이미지">
+                    <h2>성인 전용 인피니티 풀</h2>
+                    <p>아난티 힐튼 부산 호텔 2층에 위치한 성인 전용 인피니티 풀은 커플, 혹은 친구와<br>
+                        파노라믹 오션뷰를 감상하며 보다 조용한 분위기에서 <br>
+                        수영과 여유를 즐기고 싶은 분들에게 추천합니다.<br>
+                         풀 사이드 선베드에서 독서와 태닝을 즐길 수 있습니다.</p> </li>
+                <li><img src="images/leisure3.jpg" alt="슬라이드3이미지"><h2>인피니티 풀</h2>
+                    <p>탁 트인 전망과 넓은 공간, 그리고 <br>
+                        푸른 바다를 향해 끝없이 이어지는 듯한 오션 인피니티 풀은<br>
+                        국내 특급호텔 중 가장 큰 규모의 인피니티 풀로, <br>
+                        고객들에게 더욱 쾌적한 이용 환경을 제공하며 <br>
+                        노천탕과 키즈 전용풀도 함께 자리 잡고 있습니다.</p></li>
+            </ul>
+            
         </div>
     </section>
-    <section id="content-4"></section>
-    <section id="content-5"></section>
-    <footer id="footer"></footer>
+
+   
+    <section id="content-4">
+        <div class="inner">
+            <h1>PHOTO</h1>
+            <ul>
+                <li class="all">ALL</li>
+                <li><a>ACCOMMODATIONS</a></li>
+                <li><a>DINING</a></li>
+                <li><a>WEDDING</a></li>
+            </ul>
+            <div class="cont4-p">
+                <div class="cont4-left"><img src="images/content1.jpg">
+                <img src="images/content2.jpg"></div>
+                <div class="cont4-right"><img src="images/content1-2.jpg"></div>
+            </div>
+            <div class="cont4-p">
+                <div class="cont4-left"><img src="images/content3.jpg">
+                    <img src="images/content4.jpg"></div>
+                    <div class="cont4-right"><img src="images/content2-2.jpg"></div>
+            </div>
+            <div class="cont4-p">
+                <div class="cont4-left"><img src="images/content5.jpg">
+                    <img src="images/content5-15.jpg"></div>
+                    <div class="cont4-right"><img src="images/content1-3.jpg"></div>
+            </div>
+        </div>
+    </section>
+    <section id="content-5">
+        <div class="inner">
+            <h1>MAP</h1>
+            <img src="images/map.jpg" alt="map" class="map">
+            <p>부산 기장군 기장읍 기장해안로 268-32</p>
+        </div>
+    </section>
+    <section id="content-6">
+        <div class="inner">
+            <h1>아난티 힐튼 부산</h1>
+            <p>숨막히게 펼쳐지는 풍경을 바라보며 잊지 못할 휴식을 즐겨보세요.</p>
+            <div class="btn">예약하러가기</div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footer-t">
+            <ul class="footer-menu">
+                <li>Site Map</li>
+                <li>Recruit </li>
+                <li>Corporate Responsibility</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+        <div class="footer-b">
+            <div class="inner">
+                <img src="images/logo.png">  
+            <p>268-32, Gijanghaean-ro, Gijang-eup, Gijang-gun, Busan, Korea 46083<br>
+                T. 대표번호 +82 (0)51-509-1111 | 객실 예약 +82 (0)51-509-1114<br>
+                F. (0)51-509-2600 E. pushi_hotel@hilton.com 사업자등록번호 : 483-85-00667 대표이사 : 이만규<br>
+                Copyright © 2017 All rights reserved Hilton BUSAN</p>          </div>
+        </div>
+    </footer>
 </body>
 
 </html>
