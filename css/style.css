@@ -35,7 +35,8 @@ h1,h2,h3,h4,h5,h6 {font-size: 16px;}
 
 
 #content-1 {width:100%; height: 900px; background: #fff }
-.iconbox { float: left;width:30%;margin:0 auto; text-align: center;}
+.cont1-box {width: 100%;}
+.iconbox {float: left;width:33.33%;margin:0 auto; text-align: center;}
 .iconbox .icon {margin:0 auto; margin-top: 295px;;}
 .iconbox img {padding-top: 2.5em;}
 .icon {width: 157px;height: 157px;border:2px solid #0d161f}
@@ -44,9 +45,9 @@ h1,h2,h3,h4,h5,h6 {font-size: 16px;}
 
 /*컨텐츠1끝//////*/
 
-#content-2 {height: 2250px; background:#fff;}
+#content-2 {background:#fff;}
 #content-2 h1 {font-size: 30px;color:#01163f;padding-bottom: 100px;text-align: center;}
-.content2-box {height: 685px;}
+.content2-box {height: 600px;}
 .content2-box div{float: left;}
 .content2-text {padding-top: 50px; padding-left: 72px;width: 520px;height: 365px; font-size: 15px;}
 .content2-text h2 {padding-bottom: 67px; font-size: 20px;}
