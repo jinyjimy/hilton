@@ -36,9 +36,11 @@ h1,h2,h3,h4,h5,h6 {font-size: 16px;}
 
 #content-1 {width:100%; height: 900px; background: #fff }
 .cont1-box {width: 100%;}
+
 .iconbox {float: left;width:33.33%;margin:0 auto; text-align: center;}
 .iconbox .icon {margin:0 auto; margin-top: 295px;;}
 .iconbox img {padding-top: 2.5em;}
+.iconbox:nth-child(1) img {padding-top: 3.2rem;}
 .icon {width: 157px;height: 157px;border:2px solid #0d161f}
 .iconbox h2 {font-size: 20px; padding-top: 38px;;}
 .iconbox p {font-size: 15px;padding-top: 30px;}
