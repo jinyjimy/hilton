@@ -31,6 +31,9 @@ h1,h2,h3,h4,h5,h6 {font-size: 16px;}
 .main-text h3 {font-size: 31px; font-family: 'Noto Serif KR', serif; padding-bottom: 81px; }
 .main-btn {width:175px; height: 53px; border:1px solid #fff; font-size: 16px;text-align: center;line-height: 53px; }
 .main-btn:hover {font-weight: bold;cursor: pointer;}
+/*메인끝 ///////*/
+
+
 #content-1 {width:100%; height: 900px; background: #fff }
 .iconbox { float: left;width:30%;margin:0 auto; text-align: center;}
 .iconbox .icon {margin:0 auto; margin-top: 295px;;}
@@ -39,25 +42,33 @@ h1,h2,h3,h4,h5,h6 {font-size: 16px;}
 .iconbox h2 {font-size: 20px; padding-top: 38px;;}
 .iconbox p {font-size: 15px;padding-top: 30px;}
 
+/*컨텐츠1끝//////*/
+
 #content-2 {height: 2250px; background:#fff;}
 #content-2 h1 {font-size: 30px;color:#01163f;padding-bottom: 100px;text-align: center;}
 .content2-box {height: 685px;}
 .content2-box div{float: left;}
-.content2-text {padding-top: 50px; padding-left: 72px;width: 520px;height: 365px;}
-.content2-text h2 {padding-bottom: 67px;}
+.content2-text {padding-top: 50px; padding-left: 72px;width: 520px;height: 365px; font-size: 15px;}
+.content2-text h2 {padding-bottom: 67px; font-size: 20px;}
 .content2-left {text-align: right; padding-right: 72px;}
+/*컨텐츠2끝/////*/
+
+
 
 #content-3 {width:100%; height: 965px;background: #f0f7fd;text-align: center;}
 #content-3 h1 {font-size: 30px;padding:100px;}
 #content-3 h2 {font-size: 23px;padding-top: 26px; color:#01163f}
-#content-3 p {font-size: 11px;text-align:center; padding-top: 46px;;}
+#content-3 p {font-size: 15px;text-align:center; padding-top: 46px;;}
+/*컨텐츠3끝//////*/
+
 
 #content-4 {width:100%;height: 2000px; background:#fff;text-align: center; color:#ddd}
 #content-4 .inner {padding}
 #content-4 img {padding-bottom: 20px;}
 #content-4 h1 {font-size: 30px;color:#01163f;padding-bottom: 100px;text-align: center;; padding-top: 234px;;}
-#content-4 ul {width:450px;height: 25px;margin:0 auto; padding-bottom: 79px;}
+#content-4 ul {width:500px;height: 25px;margin:0 auto; padding-bottom: 79px;font-size: 15px;text-align: center;}
 #content-4 ul li {float: left;padding-right:45px ;text-align: center; }
+#content-4 ul li:hover {color:#02225f}
 .all {font-weight: bold; color:#02225f}
 .cont4-left {float: left;}
 .cont4-left img {display: block;}
@@ -65,11 +76,16 @@ h1,h2,h3,h4,h5,h6 {font-size: 16px;}
 
 #content-4 img {cursor:pointer;}
 #content-4 img:hover { opacity: 70%; }
+/*컨텐츠4끝////*/
+
 
 #content-5 {text-align: center;width:100%;height: 1043px; background:#f0f7fd}
 .map:hover {cursor:pointer; cursor: zoom-in;}
 #content-5 h1 {font-size: 30px;color:#01163f;padding-bottom: 100px;text-align: center;padding-top: 173px;}
 #content-5 p {font-size: 22px; padding-top: 57px;;}
+/*컨텐츠5끝////////*/
+
+
 
 #content-6 {background-image: url(../images/content45.jpg);width:100%;height: 536px;color:#fff; text-align: center;}
 #content-6 h1 {font-size: 30px; padding-top: 170px;font-weight: normal;}
@@ -77,12 +93,16 @@ h1,h2,h3,h4,h5,h6 {font-size: 16px;}
 .btn {border:2px solid #fff; cursor:pointer;width: 200px;height: 55px;color:#fff; font-size: 16px; margin:0 auto; text-align: center;
 line-height: 55px; margin-top: 140px;}
 .btn:hover {cursor:pointer; font-weight: bold;}
+/*컨텐츠6끝/////*/
+
+
 
 #footer {color:#fff}
-.footer-t {width:100%;height: 95px; background:#01163f; overflow: hidden;}
+.footer-t {width:100%;height: 90px; background:#01163f; overflow: hidden;}
 .footer-menu {padding-right: 50px;}
 .footer-menu li {display: inline-block; float:right; padding-left: 20px
-    ;line-height: 95px;;}
-.footer-b {width:100%;height: 470px; background:#01163f;margin-top: 60px;}
+    ;line-height: 90px;;}
+.footer-b {width:100%;height: 400px; background:#01163f;margin-top: 30px;}
 .footer-b img {padding-top: 94px;;}
 .footer-b p {padding-top: 75px;}
+/*푸터끝////*/
